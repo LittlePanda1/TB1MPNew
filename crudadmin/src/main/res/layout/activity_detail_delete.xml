@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Label + Value: Nama Barang -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:textSize="14sp"
+            android:textColor="@color/lavender"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/showName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="–"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp" />
+
+        <!-- Label + Value: Nama Toko -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Toko"
+            android:textSize="14sp"
+            android:textColor="@color/lavender"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/showStore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="–"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp" />
+
+        <!-- Label + Value: Jumlah Barang -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Barang"
+            android:textSize="14sp"
+            android:textColor="@color/lavender"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/showOperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="–"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp" />
+
+        <!-- Label + Value: Harga Barang -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Barang"
+            android:textSize="14sp"
+            android:textColor="@color/lavender"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/showLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="–"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp" />
+
+        <!-- Label + Value: Satuan Barang -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satuan Barang"
+            android:textSize="14sp"
+            android:textColor="@color/lavender"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/showPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="–"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp" />
+
+        <!-- Tombol Hapus -->
+        <Button
+            android:id="@+id/btnConfirmDelete"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Hapus Pesanan"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/red"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

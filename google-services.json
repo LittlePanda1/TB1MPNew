@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "365576219696",
+    "firebase_url": "https://tb1mp-760e5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tb1mp-760e5",
+    "storage_bucket": "tb1mp-760e5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365576219696:android:2db09d03e4cfd6079011f5",
+        "android_client_info": {
+          "package_name": "com.example.crudadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMstr5qmHgFmYTTegyWuTMRwX_sCHWZ20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365576219696:android:99f7fb04b60b82ed9011f5",
+        "android_client_info": {
+          "package_name": "com.example.kotlintodopractice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMstr5qmHgFmYTTegyWuTMRwX_sCHWZ20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

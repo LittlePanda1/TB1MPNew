@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/admin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        android:padding="20dp">
+
+        <!-- Kunci update: nomor telepon -->
+        <EditText
+            android:id="@+id/referencePhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:hint="Masukkan Nomor Telepon"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <!-- Nama Toko -->
+        <EditText
+            android:id="@+id/updateStore"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:hint="Masukkan Nama Toko"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <!-- Nama Barang -->
+        <EditText
+            android:id="@+id/updateName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:hint="Masukkan Nama Barang"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <!-- Jumlah Barang -->
+        <EditText
+            android:id="@+id/updateOperator"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:hint="Masukkan Jumlah Barang"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <!-- Harga Barang -->
+        <EditText
+            android:id="@+id/updateLocation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:hint="Masukkan Harga Barang"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <!-- Satuan Barang -->
+        <EditText
+            android:id="@+id/updatePhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:hint="Masukkan Satuan Barang"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/lavender"/>
+
+        <!-- Tombol Ubah -->
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/lavender"
+            android:text="Ubah"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CRUD Admin</string>
+
+    <string-array name="units_array">
+        <item>pcs</item>
+        <item>kg</item>
+        <item>liters</item>
+        <item>packs</item>
+    </string-array>
+</resources>

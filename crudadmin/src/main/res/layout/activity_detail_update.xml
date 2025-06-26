@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editStore"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nama Toko"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <EditText
+            android:id="@+id/editOperator"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:hint="Jumlah Barang"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <EditText
+            android:id="@+id/editLocation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:hint="Harga Barang"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:hint="Satuan Barang"
+            android:background="@drawable/lavender_border"
+            android:padding="16dp"
+            android:textColor="@color/lavender" />
+
+        <Button
+            android:id="@+id/saveUpdateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:text="Simpan Perubahan"
+            android:backgroundTint="@color/lavender"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

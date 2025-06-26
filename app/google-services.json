@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089899202953",
+    "project_id": "tb1mp-new",
+    "storage_bucket": "tb1mp-new.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089899202953:android:f83c71be4e79494592b958",
+        "android_client_info": {
+          "package_name": "com.example.crudadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT7-0xOSITN4bSS_5ZnrbW847WqYRUt4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089899202953:android:15dbdbc5e5b3f45892b958",
+        "android_client_info": {
+          "package_name": "com.example.tb1mpnew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT7-0xOSITN4bSS_5ZnrbW847WqYRUt4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
